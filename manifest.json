@@ -1,7 +1,7 @@
 [
   {
     "name": "Stem Extractor",
-    "description": "Extrait les stems (voix, batterie, basse, autres) du morceau ecoute via un menu Rapide/Qualite, avec file d'attente et progression. Necessite l'application SpiceUtils (serveur local de separation Demucs).",
+    "description": "Extracts the stems (vocals, drums, bass, other) of the track you're listening to via a Fast/Quality menu, with a queue and progress. Requires the SpiceUtils app (local Demucs separation server).",
     "preview": "preview.png",
     "main": "stemExtractor.js",
     "readme": "README.md",

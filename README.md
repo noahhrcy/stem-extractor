@@ -1,29 +1,28 @@
 # Stem Extractor
 
-Extension Spicetify qui ajoute un bouton pour **extraire les stems** (voix /
-batterie / basse / autres) du morceau écouté, directement depuis Spotify.
+Spicetify extension that adds a button to **extract the stems** (vocals / drums /
+bass / other) of the track you're listening to, right from Spotify.
 
-Au clic, un menu propose **Extraction Rapide** (htdemucs) ou **Extraction
-Qualité** (htdemucs_ft). Les morceaux s'enchaînent dans une **file d'attente**
-avec barre de progression, temps restant estimé, et possibilité d'annuler.
+On click, a menu offers **Fast extraction** (htdemucs) or **Quality extraction**
+(htdemucs_ft). Tracks run one after another in a **queue** with a progress bar,
+estimated time left, and the ability to cancel.
 
-## ⚠️ Nécessite SpiceUtils
+## ⚠️ Requires SpiceUtils
 
-La séparation des stems tourne sur un **serveur local** fourni par l'application
-**SpiceUtils** (Python + Demucs). L'extension seule ne suffit pas.
+Stem separation runs on a **local server** provided by the **SpiceUtils**
+application (Python + Demucs). The extension alone is not enough.
 
-➡️ **Téléchargez SpiceUtils :** https://github.com/noahhrcy/SpiceUtils/releases
+➡️ **Download SpiceUtils:** https://github.com/noahhrcy/SpiceUtils/releases
 
-Une fois SpiceUtils installé et son serveur démarré (onglet *Serveur*), le bouton
-fonctionne. Si le serveur n'est pas détecté, l'extension propose le lien de
-téléchargement.
+Once SpiceUtils is installed and its server is started (Server tab), the button
+works. If the server isn't detected, the extension offers the download link.
 
-## Utilisation
+## Usage
 
-- Bouton dans la barre de lecture, ou clic droit sur un titre.
-- Les stems sont enregistrés dans le dossier configuré dans SpiceUtils
-  (par défaut `Téléchargements/Stems`).
+- Button in the playbar, or right-click on a track.
+- Stems are saved to the folder configured in SpiceUtils (default
+  `Downloads/Stems`).
 
-## Licence
+## License
 
 MIT.
