@@ -1,7 +1,7 @@
 [
   {
     "name": "Stem Extractor",
-    "description": "Extracts the stems (vocals, drums, bass, other) of the track you're listening to via a Fast/Quality menu, with a queue and progress. Requires the SpiceUtils app (local Demucs separation server).",
+    "description": "Extracts the stems (vocals, drums, bass, other) of the track you're listening to via a checkbox menu (pick stems, optional full-track MP3), with a queue and progress. Requires the SpiceUtils app (local Demucs separation server).",
     "preview": "preview.png",
     "main": "stemExtractor.js",
     "readme": "README.md",
